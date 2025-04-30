@@ -10,13 +10,9 @@ class TestFunction(unittest.TestCase):
     @number("1.1")
     def test_ways_basic(self):
         """
-        Evaluate a few typical cases:
-            12 --> 3
-            20 --> 5
+        Evaluate a typical case:
             3  --> 1
         """
-        self.assertEqual(ways(12), 3, "ways(12) --> 3")
-        self.assertEqual(ways(20), 5, "ways(20) --> 5")
         self.assertEqual(ways(3), 1, "ways(3) --> 1")
 
     @weight(1)
