@@ -1,5 +1,4 @@
 import unittest
-import json
 from gradescope_utils.autograder_utils.json_test_runner import JSONTestRunner
 
 if __name__ == '__main__':
