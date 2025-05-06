@@ -1,26 +1,49 @@
 # week-template
 
-This is a **TEMPLATE** repository for a weekly content including the lab and coding exercises. Each weekly coding exercise involves updating back-end code for a simple Streamlit web app. For the most part, the "exercise" will be updates to the *apputil.py* file.
+> This is a **TEMPLATE** repository for a weekly content including the lab and coding exercises.
 
-*Note: these weeks are intended to be used with GitHub Codespaces and Gradescope autograder.*
+This week's lab is meant to give you a very basic introduction to the Python coding environment. In particular, we will focus on the following:
+
+- JupyterLab and Markdown
+- Variables and Data Types
+- Operators and Logic
+- Packages, Modules, and Objects
 
 ## setup
 
 *(As of April 2025)*
 
 1. Fork this repository.
-2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your repository. Use this to view the lab notebook and make changes to the code and to test your web app.
+2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your repository. Use this to view the lab notebook and work on your weekly coding exercise.
 3. Submit a URL to your (forked) repository on Canvas ([using Gradescope](https://guides.gradescope.com/hc/en-us/articles/21865616724749-Submitting-a-Code-assignment)).
 
-**Only update the file(s) noted in the exercise instructions below.** Updating any other files may affect your web app or your feedback.
+## exercises
 
-## exercise
+**For the exercises, only update the *apputil.py* file or the *app.py* file.** Updating any other files may affect your autograder feedback.
 
-In the *apputil* file, update `ways(n)` to return the number of ways to yield `n` cents using only pennies and nickels.
+### exercise 1
 
-**Packages Available:**
+In *apputil.py*, ...
 
-The environment for this exercise is built with the following environment.yml:
+---
+
+**A few test cases:**
+
+...
+
+### exercise 2
+
+...
+
+---
+
+**A few test cases:**
+
+...
+
+## Packages Available:
+
+The environment for this week is built with the following environment.yml:
 
 ```yml
 name: coding-exercise
@@ -33,7 +56,7 @@ dependencies:
     - numpy
 ```
 
-*Note: you cannot update this environment. This is only shared as reference for you.*
+*Note: you are welcome to install more pacakges in your codespace, but they will not be used by the autograder.*
 
 ---
 
