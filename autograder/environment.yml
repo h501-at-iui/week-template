@@ -1,9 +1,10 @@
-name: coding-exercise
+name: week-3
 dependencies:
   - python=3.11
   - pip
   - pip:
-    - ipykernel  # for Jupyter Notebooks
+    - ipykernel  # for Jupyter Notebook
     - streamlit
+    - seaborn
     - pandas
     - numpy
